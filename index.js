@@ -25,3 +25,7 @@ const fareDoubler = function (number) {
 const fareTripler = function (fare) {
   return fare * 3;
 }
+
+const selectDifferentDrivers = function (functionName) {
+  return functionName();
+}
